@@ -32,4 +32,3 @@ sudo service ntp stop
 sudo ntpdate 0.$cc.pool.ntp.org
 sudo service ntp start
 sudo ntpq -pn
-timedatectl status
