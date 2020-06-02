@@ -5,7 +5,7 @@ csere()
 OLD="debian.pool.ntp.org iburst"
 NEW=$1".pool.ntp.org iburst"
 DPATH="/etc/ntp.conf"
-BPATH="/etc/ntp.conf.backup"
+BPATH="~/ntp.conf.backup"
 [ ! -d $BPATH ] && sudo mkdir -p $BPATH || :
 for f in $DPATH
 do
