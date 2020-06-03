@@ -27,7 +27,7 @@ sudo systemctl disable systemd-timesyncd
 sudo service ntp restart
 sudo service ntp reload
 csere $cc
-sudo timedatectl set-ntp true
+#sudo timedatectl set-ntp true
 sudo service ntp stop
 sudo ntpdate 0.$cc.pool.ntp.org
 sudo service ntp start
